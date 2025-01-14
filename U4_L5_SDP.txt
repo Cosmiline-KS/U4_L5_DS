@@ -1,0 +1,7 @@
+1. The difference between the two is that size is the amount of data pieces that are in the list and the capacity is how many it can hold
+
+2.The front is modified when front is dequeued, so it moves to the next avalable element or the one cloest to being dequeued
+
+3. __is_empty will require raising to tell us when the list is empty, which should never happen
+
+4. Its more efficient to do it this way because it always deletes the front, and index 0 might not always be the front of the list, it might just be none. So its always easier to have the pointer so we know where to dequeue always. 
